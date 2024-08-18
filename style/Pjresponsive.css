@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    font-size: 1.4rem;
+    display: inline;
+    color: #17233D;
+    line-height: 21px;
+    margin: 47px 0 0 42px;
+    cursor: pointer;
+}
+
+a {
+    margin-left: 3.2rem;
+}
+
+.button-left {
+    width: 12.4rem;
+    height: 5.1rem;
+    margin-left: 3.2rem;
+    color: #ffffff;
+    background-color: #6fbf44;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+img {
+    width: 59.19rem;
+    height: 50rem;
+    margin: 20.6rem 0 0 12.1rem;
+}
+
+.container-right {
+    display: inline-block;
+    position: absolute;
+    width: 58.2rem;
+    height: 16.4rem;
+    margin: 30.2rem 0 0 8rem;
+}
+
+h1 {
+    font-size: 6.2rem;
+    line-height: 8.2rem;
+    font-weight: 700;
+    color: #161a49;
+}
+
+p {
+    width: 49.9rem;
+    height: 9.9rem;
+    padding: 4.5rem 0 0;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    font-weight: 400;
+    color: #48505a;
+    text-align: justify;
+}
+
+.button-right {
+    width: 11.2rem;
+    height: 2.7rem;
+    margin: 6.8rem 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    color: #6fbf44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-left:hover {
+    background-color: #6fbf44db;
+}
+
+.button-left:active {
+    background-color: #6fbf447b;
+}
+
+a:hover {
+    color: #161a49aa;
+}
+
+.button-right:hover {
+    color: #6fbf44ba; 
+}
+
+@media screen and (max-width: 930px) {
+
+    .link-header{
+        display: none;
+    }
+
+    .button-left{
+        width: 9.1rem;
+        height: 3.1rem;
+        border: 1px;
+        margin: 1.7rem 1.5rem 0 28.4rem;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin: 49.0rem 4.2rem 5.8rem;
+    }
+
+    h1{
+        width: 27.8rem;
+        height: 6.0rem;
+        font-weight: 700;
+        font-size: 3.0rem;
+        text-align: center;
+        line-height: 3.0rem;
+        margin: 12.4rem 5.5rem 2.9rem 6rem;
+    }
+
+    p{
+        width: 30.4rem;
+        height: 16.5rem;
+        font-size: 1.8rem;
+        line-height: 3.3rem;
+        text-align: center;
+        margin: 0rem 4.3rem 2.6rem 4.7rem;
+        padding: 0;
+    }
+
+    .button-right{
+        width: 11.2rem;
+        height: 2.7rem;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        margin: 2.9rem 13.9rem 5.9rem 13.9rem;
+    }
+
+    .container-right{
+        margin: 0;
+        width: 37.2rem;
+    }
+}
