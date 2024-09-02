@@ -101,7 +101,7 @@ a:hover {
     color: #6fbf44ba; 
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 929px) {
 
     .link-header{
         display: none;
