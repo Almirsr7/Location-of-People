@@ -16,4 +16,6 @@
 
 <h2>E aqui está o site totalmente responsivo</h2>
 
+<img src="https://raw.githubusercontent.com/Almirsr7/Location-of-People/e79b8b23c6b6782d69e07ad2b327259e8d2642ce/style/assets/modelo-responsivo.png" alt="photo-responsive" />
+
 
